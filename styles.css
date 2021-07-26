@@ -31,7 +31,7 @@ h1 {
   text-align: right;
   font-size: 3em;
   margin-top: 2em;
-  color: #0e605b;
+  color: #093d39;
 }
 
 h2 {
@@ -62,4 +62,34 @@ button {
   background: #FFFFFF;
   cursor: pointer;
   transition: color 0.3s, border 0.3s;
+}
+
+button:hover {
+  color: #137C75;
+  border: 1px solid #137C75;
+}
+
+li:hover,
+.fa-user:hover,
+.fa-caret-down:hover {
+  cursor: pointer;
+  color: #137C75;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fa-thumbs-up,
+.fa-comment,
+.fa-heart {
+  margin-right: .35em;
+}
+
+.user-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
 }
