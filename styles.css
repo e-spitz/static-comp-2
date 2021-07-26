@@ -188,7 +188,133 @@ li:hover,
 
 .publish,
 .views-num,
-.downloads-num {
-  font-size: 1.2em;
+.download-num {
+  font-size: 1.5em;
   margin-top: -.5em;
+}
+
+@media screen and (max-width: 1325px) {
+
+  .cards {
+    display: grid;
+    padding: .5em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .overlay-container{
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+
+  h1 {
+    font-size: 2.5em;
+    margin-top: 1.1em;
+    margin-bottom: -1.9em;
+  }
+
+  ul > li {
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+
+  .overlay-container {
+    height: 89%;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  h1 {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    margin-left: .5em;
+    margin-top: -.25em;
+  }
+
+  .user-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+  }
+
+  ul > li {
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: -.5em;
+    margin-top: .5em;
+  }
+
+  .cards {
+    display: grid;
+    padding: .5em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .overlay-container {
+    height: 92.5%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .overlay-container{
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 685px) {
+
+  .overlay-container{
+    height: 88%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    margin-top: -.9em;
+  }
+
+  .fa-user,
+  .user-login,
+  .fa-caret-down {
+    font-size: .8em;
+    margin-right: .5em;
+    margin-bottom: 1em;
+  }
+
+  ul > li {
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: .5em;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .cards {
+    display: grid;
+    padding: .25em;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin-left: 9%;
+  }
+
+  .overlay-container {
+    height: 92.5%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  ul > li {
+    font-size: .8em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
