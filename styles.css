@@ -1,0 +1,194 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #093d39;
+  vertical-align: baseline;
+  line-height: 1.75;
+}
+/* END RESET */
+
+html {
+  background-color: #FAF9F9;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background: #FFFFFF;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: right;
+  font-size: 3em;
+  margin-top: 2em;
+  color: #093d39;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: .5em;
+  margin-left: .5em;
+  padding-top: .5em;
+}
+
+ul > li {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
+
+img {
+  /* height: 10%; */
+  width: 100%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: .5px solid #093d39;
+  font-size: 2em;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.3s, border 0.3s;
+}
+
+button:hover {
+  color: #137C75;
+  border: 1px solid #137C75;
+}
+
+li:hover,
+.fa-user:hover,
+.fa-caret-down:hover {
+  cursor: pointer;
+  color: #137C75;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fa-thumbs-up,
+.fa-comment,
+.fa-heart {
+  margin-right: .35em;
+}
+
+.user-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.fa-user,
+.user-login,
+.fa-caret-down {
+  font-size: 1.25em;
+  margin-right: .5em;
+}
+
+.fa-user,
+.fa-caret-down {
+  margin-top: .5em;
+}
+
+.main-title {
+  margin-bottom: -3.5em;
+  margin-right: 1em;
+}
+
+.fa-paint-brush {
+  margin-top: .5em;
+  margin-left: .25em;
+}
+
+.cards {
+  display: grid;
+  padding: .5em;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 1em;
+  margin-top: .5em;
+}
+
+.card {
+  background: #FAF9F9;
+  border: 1px solid black;
+  font-size: .75em;
+  border-radius: .5em;
+  padding: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
+  box-shadow: .01em .1em .5em black;
+}
+
+.card-top {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: .5em;
+}
+
+.overlay-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 87%;
+  padding: .75em;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: .5em;
+}
+
+.overlay-text {
+  position: relative;
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  margin-right: 1.5em;
+}
+
+.likes {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  margin-top: -.2em;
+}
+
+.link-box {
+  background-color: #BEE3DB;
+  margin: 1em 0;
+  padding: 0.7em;
+  font-size: 1em;
+  border-radius: .5em;
+  text-align: center;
+}
+
+.color-name,
+.downloads,
+.views {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.publish,
+.views-num,
+.downloads-num {
+  font-size: 1.2em;
+  margin-top: -.5em;
+}
