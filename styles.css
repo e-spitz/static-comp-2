@@ -4,6 +4,7 @@
   padding: 0;
   border: 0;
   font-family: "Montserrat", sans-serif;
+  color: #093d39;
   vertical-align: baseline;
   line-height: 1.75;
 }
@@ -24,4 +25,41 @@ main {
   background: #FFFFFF;
   height: 100%;
   width: 100%;
+}
+
+h1 {
+  text-align: right;
+  font-size: 3em;
+  margin-top: 2em;
+  color: #0e605b;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: .5em;
+  margin-left: .5em;
+  padding-top: .5em;
+}
+
+ul > li {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: .5px solid #093d39;
+  font-size: 2em;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.3s, border 0.3s;
 }
