@@ -8,3 +8,20 @@
   line-height: 1.75;
 }
 /* END RESET */
+
+html {
+  background-color: #FAF9F9;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background: #FFFFFF;
+  height: 100%;
+  width: 100%;
+}
