@@ -93,3 +93,25 @@ li:hover,
   justify-content: flex-end;
   margin-top: 1em;
 }
+
+.fa-user,
+.user-login,
+.fa-caret-down {
+  font-size: 1.25em;
+  margin-right: .5em;
+}
+
+.fa-user,
+.fa-caret-down {
+  margin-top: .5em;
+}
+
+.main-title {
+  margin-bottom: -3.5em;
+  margin-right: 1em;
+}
+
+.fa-paint-brush {
+  margin-top: .5em;
+  margin-left: .25em;
+}
