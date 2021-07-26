@@ -49,7 +49,7 @@ ul > li {
 }
 
 img {
-  height: 100%;
+  /* height: 10%; */
   width: 100%;
 }
 
@@ -114,4 +114,81 @@ li:hover,
 .fa-paint-brush {
   margin-top: .5em;
   margin-left: .25em;
+}
+
+.cards {
+  display: grid;
+  padding: .5em;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 1em;
+  margin-top: .5em;
+}
+
+.card {
+  background: #FAF9F9;
+  border: 1px solid black;
+  font-size: .75em;
+  border-radius: .5em;
+  padding: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
+  box-shadow: .01em .1em .5em black;
+}
+
+.card-top {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: .5em;
+}
+
+.overlay-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 87%;
+  padding: .75em;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: .5em;
+}
+
+.overlay-text {
+  position: relative;
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  margin-right: 1.5em;
+}
+
+.likes {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  margin-top: -.2em;
+}
+
+.link-box {
+  background-color: #BEE3DB;
+  margin: 1em 0;
+  padding: 0.7em;
+  font-size: 1em;
+  border-radius: .5em;
+  text-align: center;
+}
+
+.color-name,
+.downloads,
+.views {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.publish,
+.views-num,
+.downloads-num {
+  font-size: 1.2em;
+  margin-top: -.5em;
 }
